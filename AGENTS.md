@@ -21,3 +21,8 @@
 ## 3. GitHub Preview Assets Rule (깃헙 미리보기 영문 게시 원칙)
 - **미리보기 이미지 영문 게시 필수**: GitHub 리포지토리(README.md, Release 페이지, Wiki 등)에 공개 게시되는 모든 기본 미리보기 이미지(`assets/screenshot.png`, `assets/screenshot_dark.png`, `assets/screenshot_light.png`)는 **항상 영문(English) 버전**으로 생성 및 게시해야 한다.
 - 한국어 스크린샷은 다국어 검증용 보조 에셋(`screenshot_ko_dark.png`, `screenshot_ko_light.png`)으로 분리 관리한다.
+
+## 4. README Documentation Rule (리드미 작성 원칙: 기능 중심 & 극도의 간결성)
+- **단순 레이아웃/스타일 변경 제외**: 버튼 위치 이동, 패널 여백 조정, 라벨 문구 변경, 빌드 스크립트 등 단순 UI/내부 변경 사항은 README에 기재하지 않는다.
+- **기능 중심 명시**: 사용자에게 실질적 효용을 주는 핵심 기능(Features)만을 명시한다.
+- **최대한 간결한 표현**: 장황한 부연 설명을 배제하고, 핵심 내용만을 한눈에 파악할 수 있는 간결한 한 줄 글머리 기호(Bullet points)로만 작성한다.
