@@ -17,3 +17,7 @@
 - **에러처리**: 예외 상황을 항상 고려하여 코드를 작성할 것.
 - **두괄식 답변**: [결론] -> [상세 설명] 순서로 작성할 것.
 - **빌드 완료 시 알림음**: 최종 빌드 완료 후 딩동 사운드를 1회 재생하고 GitHub에 커밋 및 푸시할 것.
+
+## 3. GitHub Preview Assets Rule (깃헙 미리보기 영문 게시 원칙)
+- **미리보기 이미지 영문 게시 필수**: GitHub 리포지토리(README.md, Release 페이지, Wiki 등)에 공개 게시되는 모든 기본 미리보기 이미지(`assets/screenshot.png`, `assets/screenshot_dark.png`, `assets/screenshot_light.png`)는 **항상 영문(English) 버전**으로 생성 및 게시해야 한다.
+- 한국어 스크린샷은 다국어 검증용 보조 에셋(`screenshot_ko_dark.png`, `screenshot_ko_light.png`)으로 분리 관리한다.
