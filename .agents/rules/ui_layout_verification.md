@@ -15,7 +15,8 @@
 4. **재귀적 자가 수정 루프**:
    - 스크린샷 검토 시 미세한 간섭이나 겹침이 발견되면 즉시 코드를 수정하고, 다시 빌드 및 스크린샷 생성을 수행하여 시각적으로 완벽함을 확인한 후에만 완료 보고를 진행한다.
 
-## 3. GitHub 미리보기 이미지 영문 게시 원칙
-- **GitHub 공개 미리보기는 항상 영문(English) 기준**:
-  - `README.md`, GitHub Release 및 저장소 미리보기로 노출되는 에셋(`screenshot.png`, `screenshot_dark.png`, `screenshot_light.png`)은 해외 유저 및 글로벌 공개 환경을 고려하여 **항상 영문(ENG) 버전**으로 생성·게시한다.
-  - 한국어 버전은 다국어 검증 및 보조용(`screenshot_ko_dark.png`, `screenshot_ko_light.png`)으로 격리 관리한다.
+## 3. GitHub 미리보기 이미지 다국어 매칭 원칙
+- **언어별 섹션에 맞춤형 이미지 매칭**:
+  - `README.md` 등 공개 문서의 영문(English) 섹션에는 영문 스크린샷(`screenshot_dark.png`, `screenshot_light.png`)을 매칭한다.
+  - 한국어(Korean) 섹션에는 한국어 스크린샷(`screenshot_ko_dark.png`, `screenshot_ko_light.png`)을 매칭하여 국내외 사용자 모두에게 최적의 시각적 가독성을 제공한다.
+  - 기본 대표 썸네일(`screenshot.png`)은 글로벌 호환성을 위해 영문 다크 모드 기준으로 유지한다.

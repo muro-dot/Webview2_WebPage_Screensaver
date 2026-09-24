@@ -18,9 +18,11 @@
 - **두괄식 답변**: [결론] -> [상세 설명] 순서로 작성할 것.
 - **빌드 완료 시 알림음**: 최종 빌드 완료 후 딩동 사운드를 1회 재생하고 GitHub에 커밋 및 푸시할 것.
 
-## 3. GitHub Preview Assets Rule (깃헙 미리보기 영문 게시 원칙)
-- **미리보기 이미지 영문 게시 필수**: GitHub 리포지토리(README.md, Release 페이지, Wiki 등)에 공개 게시되는 모든 기본 미리보기 이미지(`assets/screenshot.png`, `assets/screenshot_dark.png`, `assets/screenshot_light.png`)는 **항상 영문(English) 버전**으로 생성 및 게시해야 한다.
-- 한국어 스크린샷은 다국어 검증용 보조 에셋(`screenshot_ko_dark.png`, `screenshot_ko_light.png`)으로 분리 관리한다.
+## 3. GitHub Preview Assets Rule (다국어 맞춤 미리보기 게시 원칙)
+- **다국어 영역별 이미지 매칭**: README.md 및 문서 내 언어별 섹션에 맞춰 최적화된 이미지를 게시한다.
+  - 영문(English) 섹션: 영문 스크린샷(`assets/screenshot_dark.png`, `assets/screenshot_light.png`) 매칭.
+  - 한국어(Korean) 섹션: 한국어 스크린샷(`assets/screenshot_ko_dark.png`, `assets/screenshot_ko_light.png`) 매칭.
+- 기본 대표 썸네일(`assets/screenshot.png`)은 글로벌 호환성을 위해 영문 다크 모드 기준으로 유지한다.
 
 ## 4. README Documentation Rule (리드미 작성 원칙: 기능 중심 & 극도의 간결성)
 - **단순 레이아웃/스타일 변경 제외**: 버튼 위치 이동, 패널 여백 조정, 라벨 문구 변경, 빌드 스크립트 등 단순 UI/내부 변경 사항은 README에 기재하지 않는다.
